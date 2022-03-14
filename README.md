@@ -1,3 +1,16 @@
+# Тестовое задание на должность frontend-разработчик
+
+## Необходимо сверстать предложенный макет, и написать простое SPA на React 16, используя следующие инструменты, технологии и подходы:
+
+- Компонентное использование CSS
+- Большим плюсом реализовать SPA с использованием TypeScript, но не обязательно
+- Препроцессор scss
+- Переиспользование блоков
+- Разделение кода на React-компоненты (презентационные и компоненты-контейнеры)
+- Webpack
+
+Stack React, TypeScript, Sass
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
