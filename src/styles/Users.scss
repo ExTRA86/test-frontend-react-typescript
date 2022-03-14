@@ -1,0 +1,18 @@
+.users {
+  padding: 19px 0px 25px 31px;
+  height: auto;
+  &__header {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+  }
+  &__footer {
+    margin-top: 10px;
+    text-align: right;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

@@ -1,0 +1,12 @@
+.sideBar {
+  display: block;
+  width: 152px;
+  height: auto;
+  padding: 35px 0px 0px 20px;
+  background: #bdbdbd;
+  &__btn {
+    padding: 5px 15px;
+    margin-top: 10px;
+    background: #4b51ef;
+  }
+}

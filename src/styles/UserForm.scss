@@ -1,0 +1,55 @@
+.user-form {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 438px;
+  height: 463px;
+  background: #ffffff;
+  border: 1px solid #f3f3f3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-top: 16px;
+  padding: 20px 0px 20px 12px;
+  p {
+    font-size: 8px;
+    line-height: 9px;
+    margin-bottom: 3px;
+  }
+  &__input {
+    width: 211px;
+    height: 22px;
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 5px 10px;
+    &:invalid {
+      border: 2px solid red;
+    }
+  }
+  &__comment {
+    width: 420px;
+    height: 55px;
+    background: #ffffff;
+    border: 1px solid #d8d8d8;
+    border-radius: 5px;
+    font-size: 10px;
+    line-height: 12px;
+    padding: 5px 10px;
+    position: relative;
+  }
+  &__btn {
+    position: absolute;
+    bottom: -30px;
+    right: 0px;
+    padding: 5px 15px;
+    background: #afafaf;
+    cursor: default !important;
+  }
+  .active {
+    background: #52cf4f;
+    cursor: pointer !important;
+  }
+}
